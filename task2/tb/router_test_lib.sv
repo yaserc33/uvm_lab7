@@ -40,11 +40,9 @@ super.new(name,parent);
 endfunction
 
 
-router_tb env;
 
 virtual function void build_phase (uvm_phase phase);
 super.build_phase(phase);
-env = router_tb::type_id::create("router_tb" , this);
 `uvm_info("test2", "build_phase completed" , UVM_HIGH )
 endfunction
 
