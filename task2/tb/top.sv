@@ -19,7 +19,7 @@ initial begin
 
 
 
-run_test("base_test");
+run_test("");
 
 end
 
